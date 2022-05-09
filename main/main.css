@@ -1,0 +1,78 @@
+:root{
+    --main: #E3170A;
+    --lite: #A5D8FF;
+    --dark: #2C365E;
+}
+body{
+color: var(--lite);
+}
+
+main{
+    background-color: var(--dark);
+    height: 95vh;
+}
+header{
+   background-color: var(--main)
+}
+
+footer, nav{
+    background-color: var(--main);
+    text-align: center;
+}
+
+h1{
+    margin-top:  0px;
+    padding: 5px;
+    font-weight: bolder;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+}
+nav > a{
+    color: var(--lite);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100;
+}
+nav > a:hover{
+    color: var(--dark);
+}
+
+h4{
+    margin: 0px;
+    font-size:  22px;
+}
+p{
+    margin: 0px;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+article.wedding_day {
+    background-color: var(--dark);
+}
+
+p.a_little_more {
+    margin-top: 25px;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+p.interoduction {
+    margin-top: 25px;
+    font-family: "Lucida Console", Monaco, monospace;
+
+}
+p.more {
+    padding-bottom: 25px;
+    background-color: var(--dark);
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+
+}
+
+img.me {
+    padding-left: 43%;
+}
+
+figcaption {
+    font-family: "Lucida Console", Monaco, monospace;
+    
+}
