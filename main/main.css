@@ -3,76 +3,67 @@
     --lite: #A5D8FF;
     --dark: #2C365E;
 }
+
 body{
-color: var(--lite);
-}
-
-main{
     background-color: var(--dark);
-    height: 95vh;
-}
-header{
-   background-color: var(--main)
+    font-family: "Lucida Console", Monaco, monospace;
+    color: var(--main)
 }
 
-footer, nav{
-    background-color: var(--main);
+div#nav_bar {
     text-align: center;
+    background-color: var(--main);
+    margin-left: 40em;
+    margin-right: 40em;
 }
 
 h1{
-    margin-top:  0px;
     padding: 5px;
     font-weight: bolder;
-    font-family: "Lucida Console", Monaco, monospace;
     text-align: center;
 }
-nav > a{
-    color: var(--lite);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 100;
-}
-nav > a:hover{
-    color: var(--dark);
-}
 
-h4{
-    margin: 0px;
-    font-size:  22px;
-}
-p{
-    margin: 0px;
-    font-family: "Lucida Console", Monaco, monospace;
-}
-
-article.wedding_day {
-    background-color: var(--dark);
+li {
+    display: inline;
 }
 
 p.a_little_more {
     margin-top: 25px;
-    font-family: "Lucida Console", Monaco, monospace;
+}
+
+h2#about_me {
+    text-align:center
 }
 
 p.interoduction {
     margin-top: 25px;
-    font-family: "Lucida Console", Monaco, monospace;
-
+    text-align: center;
 }
 p.more {
     padding-bottom: 25px;
     background-color: var(--dark);
-    font-family: "Lucida Console", Monaco, monospace;
     text-align: center;
 
 }
 
-img.me {
+img#me {
     padding-left: 43%;
 }
 
-figcaption {
-    font-family: "Lucida Console", Monaco, monospace;
-    
+img {
+    display: block;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 100;
+}
+
+a:hover {
+    color: var(--lite);
+}
+
+form {
+    color: var(--lite)
 }
